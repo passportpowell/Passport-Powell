@@ -20,6 +20,7 @@ h1, h2 {
 #title {
     float:right;
     font-size: 200%;
+    margin-right: 7.5%;
 }
 
 
@@ -50,4 +51,74 @@ h1, h2 {
 
 .active {
     border-bottom: 3px double #070606;
+}
+
+#over-text, #over-text, h2 {
+    color: hotpink;
+}
+
+#over-text {
+    padding-top: 15%;
+    width: 50%;
+    float: right;
+    text-align: right;
+    background-color: aqua;
+
+    /* font-size: 125%;
+    font-family: 'roboto slab', sans-serif;
+    text-transform: uppercase bold;
+    letter-spacing: 3px;
+    width: 275px;
+    height: 175px;
+    padding-top: 25px;
+    padding-right: 75%;
+    background-color: rgba(229,229,229, 0.5);
+
+    bottom: 25px;
+    left:125px;
+position: absolute; */
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 50%;
+    background-image:   url('../assets/images/hero-image.jpg');
+    
+    background-size: cover;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    float: left;
+}
+
+#hero-zoom {
+    height: 500px;
+    width: 75%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+#why-join-us {
+    height: 600px;
+    background-color: blue;
+    text-align: center;
+
+}
+
+#why-center {
+    padding-top: 30px;
+    width: 50%;
+    margin: 0 auto;
 }
