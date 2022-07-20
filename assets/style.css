@@ -114,6 +114,7 @@ position: absolute; */
     height: 600px;
     background-color: blue;
     text-align: center;
+    color: beige;
 
 }
 
@@ -121,4 +122,21 @@ position: absolute; */
     padding-top: 30px;
     width: 50%;
     margin: 0 auto;
+}
+
+#circle-image {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: double;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-container {
+    background-image: url('../assets/images/slideshow/download.png');
+    height: 100%;
+    border-radius: 50%;
 }
