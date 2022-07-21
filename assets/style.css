@@ -168,7 +168,8 @@ position: absolute; */
     border-radius: 50%;
 }
 
-/* Schedule page */
+
+/* Schedule page styling below */
 
 #schedule {
     background-image: url('../assets/images/Birmingham.jpg') ;
@@ -176,7 +177,24 @@ position: absolute; */
     background-size: cover;
     background-position: center;
     width: 100%;
+    overflow: hidden;
     /* Picture sourced from https://www.visitbritain.com/gb/en/business/england/birmingham */
+}
+
+#schedule div {
+    color: black;
+    background-color: rgba(41, 190, 171, 0.5);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    /* change to shorthand later */
+    text-align: center;
+    border: 3px double white;
+    box-sizing: border-box;
 }
 
 #over-text-schedule {
