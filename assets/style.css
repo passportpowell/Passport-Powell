@@ -58,12 +58,16 @@ h1, h2 {
 }
 
 #over-text {
-    padding-top: 15%;
+    padding-top: 150px;
+    line-height: 50px;
+    clear:right;
     width: 50%;
     float: right;
-    text-align: right;
+    text-align: center;
     background-color: aqua;
-
+    margin: 0 auto;
+    position:static;
+ 
     /* font-size: 125%;
     font-family: 'roboto slab', sans-serif;
     text-transform: uppercase bold;
@@ -80,10 +84,14 @@ position: absolute; */
 
 }
 
+
+
 #hero-image {
-    height: 600px;
+    padding-top: 30px;
+    height: 500px;
     width: 50%;
     background-image:   url('../assets/images/hero-image.jpg');
+    
     
     background-size: cover;
 
@@ -91,16 +99,17 @@ position: absolute; */
     animation-duration: 3s;
     animation-fill-mode: forwards;
     float: left;
+    position: static;
 }
 
-#hero-zoom {
+/* #hero-zoom {
     height: 500px;
     width: 75%;
     overflow: hidden;
     background-size: cover;
-}
+} */
 
-@keyframes hero-zoom {
+/* @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
@@ -108,20 +117,38 @@ position: absolute; */
     to {
         transform: scale(1.5);
     }
-}
+} */
 
 #why-join-us {
+    padding-top: 30px;
     height: 600px;
     background-color: blue;
     text-align: center;
-    color: beige;
+    color: rgb(0, 0, 0);
+    clear: both;
+}
 
+#why-join-us > h1 {
+    font-size: xx-large;
+}
+
+#why-above {
+    background-color: red;
+}
+
+#below-why {
+    background-color: green;
+    color: #070606;
+    margin-bottom: 10px;
+    float: center;
+    /* text-decoration: underline; */
 }
 
 #why-center {
     padding-top: 30px;
     width: 50%;
     margin: 0 auto;
+    clear: none;
 }
 
 #circle-image {
@@ -140,3 +167,20 @@ position: absolute; */
     height: 100%;
     border-radius: 50%;
 }
+
+/* Schedule page */
+
+#over-text-schedule {
+    padding-top: 150px;
+    line-height: 50px;
+    clear:right;
+    width: 50%;
+    float: center;
+    text-align: center;
+    background-color: aqua;
+    margin: 0 auto;
+    position:static;
+
+}
+
+/* Footer section */
