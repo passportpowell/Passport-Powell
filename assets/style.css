@@ -170,6 +170,15 @@ position: absolute; */
 
 /* Schedule page */
 
+#schedule {
+    background-image: url('../assets/images/Birmingham.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* Picture sourced from https://www.visitbritain.com/gb/en/business/england/birmingham */
+}
+
 #over-text-schedule {
     padding-top: 150px;
     line-height: 50px;
