@@ -210,4 +210,45 @@ position: absolute; */
 
 }
 
-/* Footer section */
+/* Footer styling section */
+footer {
+    height: 150px;
+}
+
+#social-sites {
+    text-align: center;
+}
+
+#social-sites > li {
+    display: inline;
+}
+
+#social-sites i {
+    font-size: 160%;
+    margin: 2%;
+    padding-top: 10%;
+    padding: 5%;
+    color: #3a3a3a;
+
+}
+
+/* .social-sites {
+    text-align: center;
+}
+
+.social-sites > li {
+    display: inline;
+} */
+
+/* Past meets/ Gallery Page */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
+}
