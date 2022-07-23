@@ -134,7 +134,9 @@ position: absolute; */
 
 #why-above {
     background-color: red;
+    color: black;
 }
+
 
 #below-why {
     background-color: green;
@@ -151,6 +153,26 @@ position: absolute; */
     clear: none;
 }
 
+
+/* Circle container and image */
+
+
+
+#circle-container2 {
+    background-image: url('../assets/images/slideshow/download.png');
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    }
+
+
+#circle-container3 {
+    background-image: url('../assets/images/slideshow/download.png');
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
 #circle-image {
     width: 300px;
     height: 300px;
@@ -165,6 +187,7 @@ position: absolute; */
 #circle-container {
     background-image: url('../assets/images/slideshow/download.png');
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -252,3 +275,39 @@ footer {
 #gallery > img {
     width: 100%;
 }
+
+
+/* Tablet viewing */
+@media screen and (max-width: 1000px) {
+    #why-join-us {  width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #above-why {
+        padding: 30px;
+
+    }
+
+    #below-why {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #circle-image {
+        clear:both;
+        /* width: 100%;
+        Changing width changes circle to an oval */
+        float: 0;
+        padding: 0;
+    }
+
+}
+
+
+/* Mobile Viewing */
