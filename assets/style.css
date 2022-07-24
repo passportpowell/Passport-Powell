@@ -6,6 +6,7 @@ body {
     font-weight: 300;
 }
 
+
 h1, h2 {
     font-family: 'Roboto Slab', serif;
     font-weight:600;
@@ -13,8 +14,9 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-.color-green {
+.color-black {
     color:rgb(0, 0, 0);
+    /* THIS IS NOW CHANGED TO BLACK. GO BACK AND CHANGE CLASS */
 }
 
 #title {
@@ -40,13 +42,8 @@ h1, h2 {
 
 #nav-menu a {
     text-decoration: none;
-    color: inherit;
-    /* padding-bottom: 10px; */
 }
 
-#nav-menu #title {
-    /* line-height: 75%; */
-}
 
 #nav-menu a:hover {
     border-bottom: 3px double #070606;
@@ -74,39 +71,7 @@ h1, h2 {
 }
 
 
-
-/* #hero-image {
-    padding-top: 40px;
-    height: 500px;
-    width: 50%;
-    background-image:   url('../assets/images/hero-image.jpg');
-    
-    
-    background-size: cover;
-
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    float: left;
-    position: static;
-} */
-
-/* #hero-zoom {
-    height: 500px;
-    width: 75%;
-    overflow: hidden;
-    background-size: cover;
-} */
-
-/* @keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.5);
-    }
-} */
+/* ETHOS SECTION */
 
 #why-join-us {
     padding-top: 30px;
@@ -115,6 +80,11 @@ h1, h2 {
     text-align: center;
     color: rgb(0, 0, 0);
     clear: both;
+    margin: 0 auto;
+}
+
+#why-join-us li {
+    list-style-type: none;
 }
 
 #why-join-us > h1 {
@@ -148,24 +118,8 @@ h1, h2 {
 }
 
 
-/* Circle container and image */
 
-
-
-#circle-container2 {
-    background-image: url('../assets/images/slideshow/download.png');
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    }
-
-
-#circle-container3 {
-    background-image: url('../assets/images/slideshow/download.png');
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
+/* Circle container and image - I WANT TO CREATE 3 HORIZONTAL */
 
 #circle-image {
     width: 300px;
@@ -212,6 +166,7 @@ h1, h2 {
     text-align: center;
     border: 3px double white;
     box-sizing: border-box;
+    /* NEED TO FIND TEXT COLOR THAT CONTRACTS WITH IMAGE IN THE BACKGROUND */
 }
 
 #over-text-schedule {
@@ -224,7 +179,6 @@ h1, h2 {
     background-color: aqua;
     margin: 0 auto;
     position:static;
-
 }
 
 /* Footer styling section */
@@ -357,3 +311,132 @@ footer {
     }
     /* dont think this is needed! */
 }
+
+
+/* Sign up section */
+
+#join-form {
+    background: url("");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    margin: 0 auto;
+    background-image: url(../assets/images/UAE\ Dubai\ Ras\ Al\ Khaimah\ \(9\).jpg);
+    background-size: auto;
+}
+
+#signup-form {
+    margin: 100px 100px 300px 300px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width:400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    /* background-image: url(../assets/images/UAE\ Dubai\ Ras\ Al\ Khaimah\ \(9\).jpg); */
+    /* NEED TO FIND CONTRASTING FONT COLOR */
+    background-size:cover;
+    border: 3px double #fafafa;
+}
+
+/* radio {
+    text-align: center;
+    margin: 0 auto;
+}
+
+label {
+ margin: 0 auto;
+} */
+/* FIND OUT HOW TO GET RAIO BUTTON AND TEXT TO CENTER ALIGN */
+
+form h2 {
+    text-align: center;
+    color: rgb(98, 166, 255);
+}
+
+.color-blue {
+    color: blue;
+}
+
+#signup-form h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+
+.fname-input {
+    background: transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border:3px double #fafafa;
+    border-radius: 2px;
+}
+
+.fname-input:hover {
+    border-color:blue;
+}
+
+.lname-input{
+    background: transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border:3px double #fafafa;
+    border-radius: 2px;
+}
+
+.lname-input:hover {
+    border-color:blue;
+}
+
+.email-input {
+    background: transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border:3px double #fafafa;
+    border-radius: 2px;
+}
+
+.email-input:hover {
+    border-color:blue;
+}
+
+
+.text-input:hover {
+    border-color:blue;
+}
+
+#join-button {
+    /* margin-top:20px; */
+    margin: 0 auto;
+    border-radius:2px;
+    padding: 15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    /* background-color:black; */
+    color:black;
+    display:block;
+    border: 3px double;
+}
+
+#join-button:hover {
+    background-color:blue;
+    color:white;
+}
+
+
+/* TEXT BOX WIDTH CHANGE WHEN CLICKED CSS BELOW FOUND FROM 
+https://www.w3schools.com/cssref/sel_attribute_value.asp */
+
+input[type=text], input[type=email] {
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+  input[type=text]:focus, input[type=email]:focus {
+    width: 250px;
+  }
