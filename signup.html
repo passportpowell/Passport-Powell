@@ -39,6 +39,7 @@
             </nav>
         </header>
         <br>
+        <br>
         <section id="join-form">
             <form method="POST" action="" id="signup-form">
                 <!-- FILL OUT ACTION SECTION ABOVE -->
@@ -46,7 +47,7 @@
                 <label for="firstname">First Name</label>
                 <input id="firstname" name="first_name" type="text" required class="fname-input">
                 <br>
-                <label for="lastname">Last Name</label>
+                <label for="lastname">Last Name    </label>
                 <input id="lastname" name="last_name" type="text" required class="lname-input">
                 <br>
                 <label for="email">Email Address</label>
@@ -54,14 +55,15 @@
                 <br>
 
                 <label for="events">Schedule</label>
-                <input type="radio" id="events" name="events" value="events" required>
+                <input type="radio" id="events" name="sign-up" value="events" required>
                 <br>
                 <label for="travel-tips">Travel Tips</label>
-                <input type="radio" id="travel-tips" name="travel-tips" value="travel Tips" required>
+                <input type="radio" id="travel-tips" name="sign-up" value="travel Tips" required>
                 <br>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="both" value="both" required>
-                <!-- 3 RADIO BUTTONS BUT CAN CHECK ALL OF THEM. FIND A SOLUTION -->
+                <label for="both">Sign Me Up For Everything!</label>
+                <input type="radio" id="both" name="sign-up" value="both" required>
+                <!-- 3 RADIO BUTTONS BUT CAN CHECK ALL OF THEM. FIND A SOLUTION - 
+                    SOLUTION WAS TO NAME ALL RADIOS THE SAME -->
 
                 <input id="join-button" type="submit" value="Sign Up!" class="join-button">
             </form>
