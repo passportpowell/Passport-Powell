@@ -1,20 +1,18 @@
-<html>
- 
 <!DOCTYPE html>
-<html lang="en-US">
- 
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
- 
+
     <meta name="description" content="Meet up for travelers to Birmingham">
- 
+
     <meta name="keywords" content="Traveling, Travelers, Holclassay, Meet up, Birmingham, uk">
- 
+
     <link rel="stylesheet" href="assets/style.css">
     <title>PassportPowell</title>
 </head>
- 
+
 <body>
     <header> <a href="index.html">
             <h1 class="title"><span class="color-black"><em><u>Travelers</u></em></span>
@@ -40,56 +38,60 @@
     </header>
     <br>
     <br>
-    <section class="join-form">
-        <form method="POST" action="" class="signup-form">
+    <section id="join-form">
+        <form method="get" target="congratulations.html" action="#index.html" id="signup-form">
+        <!-- <form type="text" method="get" target="_blank" action="#congratulations.html"> -->
             <!-- FILL OUT ACTION SECTION ABOVE -->
-            <h2>Join Our <span class="color-blue"><em><u>Travelers</u></em></span> Newsletter! <i
-                    class="fa-solclass fa-paper-plane"></i> </h2>
+            <h2>Join Our <span id="color-blue"><em><u>Travelers</u></em></span> Newsletter! <i
+                    class="fa-solid fa-paper-plane"></i> </h2>
             <label for="firstname">First Name</label>
-            <input class="firstname" name="first_name" type="text" required class="fname-input">
+            <input id="firstname" name="first_name" type="text" required>
             <br>
             <label for="lastname">Last Name </label>
-            <input class="lastname" name="last_name" type="text" required class="lname-input">
+            <input id="lastname" name="last_name" type="text" required>
             <br>
             <label for="email">Email Address</label>
-            <input type="email" class="email" name="email_address" required class="email-input">
+            <input type="email" id="email" name="email_address" required>
             <br>
- 
+
             <label for="events">Schedule</label>
-            <input type="radio" class="events" name="sign-up" value="events" required>
+            <input type="radio" id="events" name="sign-up" value="events" required>
             <br>
             <label for="travel-tips">Travel Tips</label>
-            <input type="radio" class="travel-tips" name="sign-up" value="travel Tips" required>
+            <input type="radio" id="travel-tips" name="sign-up" value="travel Tips" required>
             <br>
             <label for="both">Sign Me Up For Everything!</label>
-            <input type="radio" class="both" name="sign-up" value="both" required>
+            <input type="radio" id="both" name="sign-up" value="both" required>
             <!-- 3 RADIO BUTTONS BUT CAN CHECK ALL OF THEM. FIND A SOLUTION -
                     SOLUTION WAS TO NAME ALL RADIOS THE SAME -->
- 
-            <input class="join-button" type="submit" value="Sign Up!" class="join-button">
+
+            <input id="join-button" type="submit" value="Sign Up!" >
         </form>
     </section>
- 
+
+
+
+
     <script src="https://kit.fontawesome.com/d5114a4b10.js" crossorigin="anonymous"></script>
 </body>
- 
+
+
 <footer>
     <div>
-        <ul class="social-sites" class="social-sites">
+        <ul class="social-sites">
             <li> <a href="https://instagram.com/passportpowell/" target="_blank" rel="noopener"
-                    aria-label="Take a look at our Instagram page"><i class="fa-brands fa-instagram-square"></i></li>
-            </a>
+                    aria-label="Take a look at our Instagram page"><i class="fa-brands fa-instagram-square"></i></a>
+            </li>
             <li> <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Take a look at our Twitter page"><i class="fa-brands fa-twitter-square"></i></li></a>
+                    aria-label="Take a look at our Twitter page"><i class="fa-brands fa-twitter-square"></i></a>
+            </li>
             <li> <a href="https://facebook.com/passportpowell" rel="noopener" target="_blank"
                     aria-label="Take a look at our Facebook page"><i class="fa-brands fa-facebook-square"></i></a>
+            </li>
             <li> <a href="https://youtube.com/otisofro2" rel="noopener" target="_blank"
                     aria-label="Take a look at our Youtube page"><i class="fa-brands fa-youtube-square"></i></a>
+            </li>
         </ul>
- 
+
     </div>
 </footer>
- 
-</html>
- 
-

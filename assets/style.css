@@ -74,11 +74,11 @@ h1, h2 {
 
 
 .nav-menu a:hover {
-    border-bottom: 3px double .070606;
+    border-bottom: 3px double #070606;
 }
 
 .active {
-    border-bottom: 3px double .070606;
+    border-bottom: 3px double #070606;
 }
 
 .over-text,
@@ -87,9 +87,8 @@ h2 {
 }
 
 .over-text {
-    padding-top: 3%;
+    padding-top: 5%;
     line-height: 50px;
-    clear: center;
     width: 100%;
     text-align: center;
     /* background-color: aqua; */
@@ -125,7 +124,7 @@ h2 {
 .above-why {
     /* background-color: red; */
     color: #000000;
-    width: 100%;
+    width: 90%;
     line-height: 30px;
     text-align: center;
 }
@@ -138,7 +137,6 @@ h2 {
     /* background-color: green; */
     color: #070606;
     margin-bottom: 10px;
-    float: center;
     /* text-decoration: underline; */
 }
 
@@ -206,7 +204,6 @@ h2 {
     line-height: 50px;
     clear: right;
     width: 50%;
-    float: center;
     text-align: center;
     background-color: #00ffff;
     margin: 0 auto;
@@ -217,8 +214,6 @@ h2 {
 footer {
     padding-top: 30px;
     height: 150px;
-
-    text-align:
 }
 
 .social-sites {
@@ -255,6 +250,12 @@ footer {
     column-gap: 0;
 }
 
+.recent-events {
+    text-transform: uppercase;
+    clear: both;
+    text-align: center;
+}
+
 .gallery>img {
     width: 100%;
 }
@@ -281,23 +282,15 @@ footer {
     .below-why {
         padding: 0;
         width: 100%;
-        float: center;
         text-align: center;
     }
 
 
     .circle-image {
         clear: both;
-        /* width: 100%;
-        Changing width changes circle to an oval */
-        float: 0;
         padding: 0;
     }
 
-    /*
-    .circle-container {
-        clear: both;
-    } */
 
     .hero-image {
         width: 100%;
@@ -350,7 +343,7 @@ footer {
 
 /* Sign up section */
 
-.join-form {
+#join-form {
     background: url("");
     background-size: cover;
     background-position: center;
@@ -361,7 +354,7 @@ footer {
     padding: 30px;
 }
 
-.signup-form {
+#signup-form {
     margin: 100px 100px 300px 300px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
@@ -390,7 +383,7 @@ form h2 {
     color: #62a6ff;
 }
 
-.color-blue {
+#color-blue {
     color: #0000ff;
 }
 
@@ -399,7 +392,7 @@ form h2 {
     margin-bottom: 20px;
 }
 
-#fname-input {
+#firstname {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -409,11 +402,11 @@ form h2 {
     border-radius: 2px;
 }
 
-#fname-input:hover {
+#firstname:hover {
     border-color: #0000ff;
 }
 
-.lname-input {
+#lastname {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -423,11 +416,11 @@ form h2 {
     border-radius: 2px;
 }
 
-.lname-input:hover {
+#lastname:hover {
     border-color: #0000ff;
 }
 
-.email-input {
+#email {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -437,16 +430,16 @@ form h2 {
     border-radius: 2px;
 }
 
-.email-input:hover {
+#email:hover {
     border-color: #0000ff;
 }
 
 
-.text-input:hover {
+#text-input:hover {
     border-color: #0000ff;
 }
 
-.join-button {
+#join-button {
     /* margin-top:20px; */
     margin: 0 auto;
     border-radius: 2px;
@@ -459,7 +452,7 @@ form h2 {
     border: 3px double;
 }
 
-.join-button:hover {
+#join-button:hover {
     background-color: #0000ff;
     color: #ffffff;
 }
