@@ -1,71 +1,100 @@
+/* for width margin padding try to use % rather than px
+for code with more than 4 lines then add commet about what it does
+dont just comment like "club ethos" instead use the class id
+credit pictures within readme and not css
+use jigsaw css validator */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
+/* 
+
+html, body {
+    max-width: 100%;
+    overflow-x: auto;
+} */
+
 body {
-    font-family:'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     font-weight: 300;
 }
 
-
 h1, h2 {
     font-family: 'Roboto Slab', serif;
-    font-weight:600;
+    font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
 .color-black {
-    color:rgb(0, 0, 0);
+    color: #000000;
     /* THIS IS NOW CHANGED TO BLACK. GO BACK AND CHANGE CLASS */
 }
 
-#title {
-    float:right;
+.title {
+    float: left;
     font-size: 200%;
-    margin-right: 7.5%;
+    /* margin-right: 7.5%; */
+    padding-left: 2%;
     color: blue;
 }
 
-
-#nav-menu {
+.nav-menu {
     font-size: 100%;
     letter-spacing: 3px;
     font-family: 'roboto slab', sans-serif;
+    float: right;
+    padding-right: 2%;
 }
 
-#nav-menu li {
+.nav-menu-2 {
+    font-size: 100%;
+    letter-spacing: 3px;
+    font-family: 'roboto slab', sans-serif;
+    float: right;
+}
+
+.nav-menu-2 {
     float: left;
     list-style-type: none;
     margin-right: 35px;
     color: blue;
 }
 
-#nav-menu a {
+.nav-menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 35px;
+    color: blue;
+}
+
+.nav-menu a {
     text-decoration: none;
 }
 
 
-#nav-menu a:hover {
-    border-bottom: 3px double #070606;
+.nav-menu a:hover {
+    border-bottom: 3px double .070606;
 }
 
 .active {
-    border-bottom: 3px double #070606;
+    border-bottom: 3px double .070606;
 }
 
-#over-text, h2 {
+.over-text,
+h2 {
     color: blue;
 }
 
-#over-text {
-   padding-top: 3%;
+.over-text {
+    padding-top: 3%;
     line-height: 50px;
-    clear:center;
+    clear: center;
     width: 100%;
     text-align: center;
     /* background-color: aqua; */
     margin: 0 auto;
-    position:static;
+    position: static;
     font-family: 'roboto slab', sans-serif;
     font-size: 150%;
 }
@@ -73,36 +102,39 @@ h1, h2 {
 
 /* ETHOS SECTION */
 
-#why-join-us {
-    padding-top: 30px;
+.why-join-us {
+    /* padding-top: 10%; */
     height: 600px;
     /* background-color: blue; */
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #000000;
     clear: both;
     margin: 0 auto;
 }
 
-#why-join-us li {
+.why-join-us li {
     list-style-type: none;
+    text-align: center;
 }
 
-#why-join-us > h1 {
+.why-join-us > h1 {
     font-size: 300%;
+    text-align: center;
 }
 
-#above-why {
+.above-why {
     /* background-color: red; */
-    color: black;
+    color: #000000;
     width: 100%;
     line-height: 30px;
+    text-align: center;
 }
 
-#link {
-    color: black;
+.link {
+    color: #000000;
 }
 
-#below-why {
+.below-why {
     /* background-color: green; */
     color: #070606;
     margin-bottom: 10px;
@@ -110,7 +142,7 @@ h1, h2 {
     /* text-decoration: underline; */
 }
 
-#why-center {
+.why-center {
     padding-top: 30px;
     width: 50%;
     margin: 0 auto;
@@ -121,7 +153,7 @@ h1, h2 {
 
 /* Circle container and image - I WANT TO CREATE 3 HORIZONTAL */
 
-#circle-image {
+.circle-image {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -132,7 +164,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
-#circle-container {
+.circle-container {
     background-image: url('../assets/images/slideshow/download.png');
     height: 100%;
     width: 100%;
@@ -142,8 +174,8 @@ h1, h2 {
 
 /* Schedule page styling below */
 
-#schedule {
-    background-image: url('../assets/images/Birmingham.jpg') ;
+.schedule {
+    /* background-image: url('../assets/images/Birmingham.jpg') ; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -152,8 +184,8 @@ h1, h2 {
     /* Picture sourced from https://www.visitbritain.com/gb/en/business/england/birmingham */
 }
 
-#schedule div {
-    color: black;
+.schedule div {
+    color: #000000;
     /* background-color: rgba(41, 190, 171, 0.5); */
     width: 25%;
     height: 300px;
@@ -164,21 +196,21 @@ h1, h2 {
     padding-left: 10px;
     /* change to shorthand later */
     text-align: center;
-    border: 3px double white;
+    border: 3px double #ffffff;
     box-sizing: border-box;
     /* NEED TO FIND TEXT COLOR THAT CONTRACTS WITH IMAGE IN THE BACKGROUND */
 }
 
-#over-text-schedule {
+.over-text-schedule {
     padding-top: 150px;
     line-height: 50px;
-    clear:right;
+    clear: right;
     width: 50%;
     float: center;
     text-align: center;
-    background-color: aqua;
+    background-color: #00ffff;
     margin: 0 auto;
-    position:static;
+    position: static;
 }
 
 /* Footer styling section */
@@ -189,15 +221,15 @@ footer {
     text-align:
 }
 
-#social-sites {
+.social-sites {
     text-align: center;
 }
 
-#social-sites > li {
+.social-sites>li {
     display: inline;
 }
 
-#social-sites i {
+.social-sites i {
     font-size: 160%;
     margin: 2%;
     padding-top: 10%;
@@ -209,21 +241,21 @@ footer {
 /* .social-sites {
     text-align: center;
 }
-
+ 
 .social-sites > li {
     display: inline;
 } */
 
 /* Past meets/ Gallery Page */
 
-#gallery {
+.gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#gallery > img {
+.gallery>img {
     width: 100%;
 }
 
@@ -233,40 +265,41 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    #why-join-us {  
+    .why-join-us {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    
+
 
     hr {
         display: none;
     }
 
-    #above-why, #below-why {
+    .above-why,
+    .below-why {
         padding: 0;
         width: 100%;
         float: center;
         text-align: center;
-
     }
 
 
-    #circle-image {
-        clear:both;
+    .circle-image {
+        clear: both;
         /* width: 100%;
         Changing width changes circle to an oval */
         float: 0;
         padding: 0;
     }
-/* 
-    #circle-container {
+
+    /*
+    .circle-container {
         clear: both;
     } */
 
-    #hero-image {
+    .hero-image {
         width: 100%;
     }
 
@@ -277,8 +310,8 @@ footer {
 /* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
 
 @media screen and (max-width: 950px) {
-    
-    #nav-menu {
+
+    .nav-menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -286,36 +319,38 @@ footer {
         line-height: 25px;
     }
 
-    #over-text {
+    .over-text {
         margin: 0 auto;
         text-align: center;
         clear: none;
         /* FIND OUT HOW TO CENTER THIS ON THE SCREEN AFTER HERO IMAGE IS REMOVED */
     }
 
-    #hero-image {
+    .hero-image {
         display: none;
     }
 
-    #why-join-us {
+    .why-join-us {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #above-why h2, #below-why h2{
+    .above-why h2,
+    .below-why h2 {
         text-align: center;
         width: 100%;
         padding: 30px;
         margin: 0 auto;
     }
+
     /* dont think this is needed! */
 }
 
 
 /* Sign up section */
 
-#join-form {
+.join-form {
     background: url("");
     background-size: cover;
     background-position: center;
@@ -326,17 +361,17 @@ footer {
     padding: 30px;
 }
 
-#signup-form {
+.signup-form {
     margin: 100px 100px 300px 300px;
-    color:#fff;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
-    max-width:400px;
+    max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
     /* background-image: url(../assets/images/UAE\ Dubai\ Ras\ Al\ Khaimah\ \(9\).jpg); */
     /* NEED TO FIND CONTRASTING FONT COLOR */
-    background-size:cover;
+    background-size: cover;
     border: 3px double #fafafa;
 }
 
@@ -344,7 +379,7 @@ footer {
     text-align: center;
     margin: 0 auto;
 }
-
+ 
 label {
  margin: 0 auto;
 } */
@@ -352,92 +387,95 @@ label {
 
 form h2 {
     text-align: center;
-    color: rgb(98, 166, 255);
+    color: #62a6ff;
 }
 
 .color-blue {
-    color: blue;
+    color: #0000ff;
 }
 
-#signup-form h2 {
-    color:#fafafa;
+.signup-form h2 {
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
-.fname-input {
+#fname-input {
     background: transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
-    border:3px double #fafafa;
+    border: 3px double #fafafa;
     border-radius: 2px;
 }
 
-.fname-input:hover {
-    border-color:blue;
+#fname-input:hover {
+    border-color: #0000ff;
 }
 
-.lname-input{
+.lname-input {
     background: transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
-    border:3px double #fafafa;
+    border: 3px double #fafafa;
     border-radius: 2px;
 }
 
 .lname-input:hover {
-    border-color:blue;
+    border-color: #0000ff;
 }
 
 .email-input {
     background: transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
     margin: 5px 0 20px 0;
-    border:3px double #fafafa;
+    border: 3px double #fafafa;
     border-radius: 2px;
 }
 
 .email-input:hover {
-    border-color:blue;
+    border-color: #0000ff;
 }
 
 
 .text-input:hover {
-    border-color:blue;
+    border-color: #0000ff;
 }
 
-#join-button {
+.join-button {
     /* margin-top:20px; */
     margin: 0 auto;
-    border-radius:2px;
+    border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
+    text-align: center;
+    font-size: 100%;
     /* background-color:black; */
-    color:black;
-    display:block;
+    color: #000000;
+    display: block;
     border: 3px double;
 }
 
-#join-button:hover {
-    background-color:blue;
-    color:white;
+.join-button:hover {
+    background-color: #0000ff;
+    color: #ffffff;
 }
 
 
-/* TEXT BOX WIDTH CHANGE WHEN CLICKED CSS BELOW FOUND FROM 
+/* TEXT BOX WIDTH CHANGE WHEN CLICKED CSS BELOW FOUND FROM
 https://www.w3schools.com/cssref/sel_attribute_value.asp */
 
-input[type=text], input[type=email] {
-    width: 100px;
+input[type=text],
+input[type=email] {
+    width: 100%;
     -webkit-transition: width .35s ease-in-out;
     transition: width .35s ease-in-out;
-  }
-  input[type=text]:focus, input[type=email]:focus {
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
     width: 250px;
-  }
+}
