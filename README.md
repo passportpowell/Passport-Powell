@@ -22,12 +22,14 @@ As a visiting user , I would like to view the past event gallery.
 ## Features
 
 ### Navigation Bar
-- On all pages and functional
-- Links to Home, Past Events Gallery, Weekly Schedule & Sign up.
-- removes need for users to click/press back button
-	/../main/readme-images/amiresponsive-old.jpg
-	- Hover over icons for text explanation of what it does if needed.
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Nav-title-Bar.jpg)
+- On all pages and functional, Removing the need for users to click/press back button.
+
+- NAv menu links to 
+    - Home ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
+    - Past Events Gallery ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg) 
+    - Weekly Schedule ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
+    - Sign up ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
+- Hovering over icons for text explanation of what it does if needed.
 
 ### Footer
 - This Section has link to social media opening in different tabs.
@@ -35,15 +37,12 @@ As a visiting user , I would like to view the past event gallery.
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/footer.jpg)
 
 ## Main Page
-![Responsive Image]()
 
 ### Landing Section
 - Circle container has a picture of a travel experience and is eye catching.
-    ![Responsive Image]()
 
 ### Why Join us Section
 	- This section tells the user the benefits with the goal of encouraging them to join.
-    ![Responsive Image]()
 
 ## Gallery page
 - Masonary Gallery shows past events to intice users to join.
