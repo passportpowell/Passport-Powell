@@ -6,12 +6,13 @@ use jigsaw css validator */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
-/* 
 
-html, body {
-    max-width: 100%;
-    overflow-x: auto;
-} */
+.hr1 {
+    height: 6px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
 
 body {
     font-family: 'Roboto Slab', serif;
@@ -28,52 +29,60 @@ h1, h2 {
 
 .color-black {
     color: #000000;
-    /* THIS IS NOW CHANGED TO BLACK. GO BACK AND CHANGE CLASS */
 }
 
 .title {
     float: left;
     font-size: 200%;
-    /* margin-right: 7.5%; */
     padding-left: 2%;
-    color: blue;
+    color: #0000ff;
 }
 
 .nav-menu {
-    font-size: 100%;
+    font-size: 130%;
+    letter-spacing: 3px;
+    font-family: 'roboto slab', sans-serif;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-menu2 {
+    font-size: 140%;
     letter-spacing: 3px;
     font-family: 'roboto slab', sans-serif;
     float: right;
     padding-right: 2%;
 }
 
-.nav-menu-2 {
-    font-size: 100%;
-    letter-spacing: 3px;
-    font-family: 'roboto slab', sans-serif;
-    float: right;
-}
-
-.nav-menu-2 {
-    float: left;
-    list-style-type: none;
-    margin-right: 35px;
-    color: blue;
-}
-
 .nav-menu li {
     float: left;
     list-style-type: none;
     margin-right: 35px;
-    color: blue;
+    color: #0000ff;
+}
+
+.nav-menu2 li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+    color: #0000ff;
 }
 
 .nav-menu a {
     text-decoration: none;
 }
 
+.nav-menu2 a {
+    text-decoration: none;
+}
 
 .nav-menu a:hover {
+    border-bottom: 3px double #070606;
+}
+
+.nav-menu2 a:hover {
     border-bottom: 3px double #070606;
 }
 
@@ -81,9 +90,8 @@ h1, h2 {
     border-bottom: 3px double #070606;
 }
 
-.over-text,
-h2 {
-    color: blue;
+.over-text, h2 {
+    color: #0000ff;
 }
 
 .over-text {
@@ -91,20 +99,25 @@ h2 {
     line-height: 50px;
     width: 100%;
     text-align: center;
-    /* background-color: aqua; */
     margin: 0 auto;
     position: static;
     font-family: 'roboto slab', sans-serif;
     font-size: 150%;
 }
 
+#hero-image {
+    background-image: url(../assets/images/hero-image.webp);
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+
 
 /* ETHOS SECTION */
 
 .why-join-us {
-    /* padding-top: 10%; */
-    height: 600px;
-    /* background-color: blue; */
+    height: 400px;
     text-align: center;
     color: #000000;
     clear: both;
@@ -116,15 +129,14 @@ h2 {
     text-align: center;
 }
 
-.why-join-us > h1 {
+.why-join-us>h1 {
     font-size: 300%;
     text-align: center;
 }
 
 .above-why {
-    /* background-color: red; */
     color: #000000;
-    width: 90%;
+    width: 92%;
     line-height: 30px;
     text-align: center;
 }
@@ -134,10 +146,8 @@ h2 {
 }
 
 .below-why {
-    /* background-color: green; */
     color: #070606;
     margin-bottom: 10px;
-    /* text-decoration: underline; */
 }
 
 .why-center {
@@ -155,8 +165,7 @@ h2 {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border: double;
-    /* border-color: black; */
+    border: 3px double #000000;
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
@@ -173,18 +182,15 @@ h2 {
 /* Schedule page styling below */
 
 .schedule {
-    /* background-image: url('../assets/images/Birmingham.jpg') ; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    overflow: hidden;
-    /* Picture sourced from https://www.visitbritain.com/gb/en/business/england/birmingham */
+    /* overflow: hidden; */
 }
 
 .schedule div {
-    color: #000000;
-    /* background-color: rgba(41, 190, 171, 0.5); */
+    color: #ffffff;
     width: 25%;
     height: 300px;
     float: left;
@@ -192,27 +198,39 @@ h2 {
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 10px;
-    /* change to shorthand later */
     text-align: center;
     border: 3px double #ffffff;
     box-sizing: border-box;
-    /* NEED TO FIND TEXT COLOR THAT CONTRACTS WITH IMAGE IN THE BACKGROUND */
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.schedule a {
+    color: #06b4c0;
+}
+
+#schedule {
+    background-image: url('../assets/images/hero-image.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 .over-text-schedule {
-    padding-top: 150px;
-    line-height: 50px;
+    padding-top: 5%;
+    line-height: 25px;
     clear: right;
     width: 50%;
     text-align: center;
-    background-color: #00ffff;
+    /* background-color: #00ffff; */
     margin: 0 auto;
     position: static;
 }
 
 /* Footer styling section */
 footer {
-    padding-top: 30px;
+    padding-top: 5%;
     height: 150px;
 }
 
@@ -230,18 +248,7 @@ footer {
     padding-top: 10%;
     padding: 5%;
     color: #3a3a3a;
-
 }
-
-/* .social-sites {
-    text-align: center;
-}
- 
-.social-sites > li {
-    display: inline;
-} */
-
-/* Past meets/ Gallery Page */
 
 .gallery {
     clear: both;
@@ -260,123 +267,30 @@ footer {
     width: 100%;
 }
 
-
-/* Tablet viewing for screens lower than 1201 pixel */
-/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
-
-@media screen and (max-width: 1200px) {
-
-    .why-join-us {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-
-
-    hr {
-        display: none;
-    }
-
-    .above-why,
-    .below-why {
-        padding: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-
-    .circle-image {
-        clear: both;
-        padding: 0;
-    }
-
-
-    .hero-image {
-        width: 100%;
-    }
-
-}
-
-
-/* Mobile Viewing for screen lower than 951 pixels*/
-/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
-
-@media screen and (max-width: 950px) {
-
-    .nav-menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    .over-text {
-        margin: 0 auto;
-        text-align: center;
-        clear: none;
-        /* FIND OUT HOW TO CENTER THIS ON THE SCREEN AFTER HERO IMAGE IS REMOVED */
-    }
-
-    .hero-image {
-        display: none;
-    }
-
-    .why-join-us {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .above-why h2,
-    .below-why h2 {
-        text-align: center;
-        width: 100%;
-        padding: 30px;
-        margin: 0 auto;
-    }
-
-    /* dont think this is needed! */
-}
-
-
 /* Sign up section */
 
 #join-form {
     background: url("");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 100%;
     margin: 0 auto;
-    background-image: url(../assets/images/UAE\ Dubai\ Ras\ Al\ Khaimah\ \(9\).jpg);
-    background-size: auto;
+    background-image: url(../assets/images/brum.webp);
     padding: 30px;
+    max-width: 100%;
 }
 
 #signup-form {
     margin: 100px 100px 300px 300px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
+    max-width: 50%;
+    position: relative;
     padding: 30px;
-    /* background-image: url(../assets/images/UAE\ Dubai\ Ras\ Al\ Khaimah\ \(9\).jpg); */
-    /* NEED TO FIND CONTRASTING FONT COLOR */
+
     background-size: cover;
     border: 3px double #fafafa;
 }
-
-/* radio {
-    text-align: center;
-    margin: 0 auto;
-}
- 
-label {
- margin: 0 auto;
-} */
-/* FIND OUT HOW TO GET RAIO BUTTON AND TEXT TO CENTER ALIGN */
 
 form h2 {
     text-align: center;
@@ -386,6 +300,12 @@ form h2 {
 #color-blue {
     color: #0000ff;
 }
+
+#color-white {
+    color: #fffefe;
+}
+
+
 
 .signup-form h2 {
     color: #fafafa;
@@ -434,19 +354,16 @@ form h2 {
     border-color: #0000ff;
 }
 
-
 #text-input:hover {
     border-color: #0000ff;
 }
 
 #join-button {
-    /* margin-top:20px; */
     margin: 0 auto;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    /* background-color:black; */
     color: #000000;
     display: block;
     border: 3px double;
@@ -471,4 +388,115 @@ input[type=email] {
 input[type=text]:focus,
 input[type=email]:focus {
     width: 250px;
+}
+
+
+
+/* Mobile Viewing for screen lower than 951 pixels*/
+/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
+
+@media screen and (max-width: 835px) {
+
+    .nav-menu {
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .over-text {
+        margin: 0 auto;
+        text-align: center;
+        clear: both;
+    }
+
+    .why-join-us {
+        width: 100%;
+    }
+
+    .above-why h2,
+    .below-why h2 {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+
+    .nav-menu {
+        clear: both;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 1px;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .over-text {
+        clear: both;
+        padding-top: 3px;
+    }
+
+}
+
+/* Tablet viewing for screens lower than 844 pixel */
+/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
+
+@media screen and (max-width: 464px) {
+
+    .why-join-us {
+        width: 65%;
+        height: 464px;
+        margin: 0 auto;
+        padding-top: 15%;
+    }
+
+    .title {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .nav-menu {
+        font-size: 160%;
+        padding: 1%;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 15px;
+    }
+
+    .above-why,
+    .below-why {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .circle-image {
+        clear: both;
+        padding: 0;
+    }
+
+
+    .hero-image {
+        width: 100%;
+    }
+
+    #signup-form {
+        max-width: 100%;
+        float: none;
+        margin: auto;
+    }
+
 }
