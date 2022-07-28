@@ -42,18 +42,18 @@ As a visiting user , I would like to view the past event gallery.
 - Circle container has a picture of a travel experience and is eye catching.
 
 ### Why Join us Section
-	- This section tells the user the benefits with the goal of encouraging them to join.
+- This section tells the user the benefits with the goal of encouraging them to join.
+
 
 ## Gallery page
 - Masonary Gallery shows past events to intice users to join.
-    ![Responsive Image]()
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery-amiresponsive.jpg)
 
 
 ## Weekly Schedule Page
 - This page shows users when events are happening, where and also what time.
 - This page will be updated as events change.
-    /../main/readme-images/amiresponsive-old.jpg
-    ![Responsive Image]()
+- ![Responsive Image]()
 
 ## Sign up Page
 - Allows users to join to a newsletters
