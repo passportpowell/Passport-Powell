@@ -3,7 +3,7 @@ Portfolio 1 Assessment
 
 
 Travel community site for meeting fellow travelers. Site is targeted more towards travlers coming into the UK while still being open to residents.
-/../readme-images/amiresponsive-old.jpg
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Amiresponsive_old.jpg)
 /readme-images/amiresponsive-old.jpg
 
 	/readme-images/amiresponsive-old.jpg
