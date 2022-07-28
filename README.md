@@ -4,9 +4,7 @@ Portfolio 1 Assessment
 
 Travel community site for meeting fellow travelers. Site is targeted more towards travlers coming into the UK while still being open to residents.
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Amiresponsive_old.jpg)
-/readme-images/amiresponsive-old.jpg
 
-	/readme-images/amiresponsive-old.jpg
 ## User Stories
 
 - Main page
@@ -29,30 +27,37 @@ As a visiting user , I would like to view the past event gallery.
 - removes need for users to click/press back button
 	/../main/readme-images/amiresponsive-old.jpg
 	- Hover over icons for text explanation of what it does if needed.
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Nav-title-Bar.jpg)
 
 ### Footer
 - This Section has link to social media opening in different tabs.
 - Users can follow and subscribe to social networks.
+![Responsive Image]()
 
 ## Main Page
+![Responsive Image]()
 
 ### Landing Section
 - Circle container has a picture of a travel experience and is eye catching.
 	../main/readme-images/amiresponsive-old.jpg
+    ![Responsive Image]()
 
 ### Why Join us Section
 	- This section tells the user the benefits with the goal of encouraging them to join.
     /../main/readme-images/amiresponsive-old.jpg
+    ![Responsive Image]()
 
 ## Gallery page
 - Masonary Gallery shows past events to intice users to join.
     /../main/readme-images/amiresponsive-old.jpg
+    ![Responsive Image]()
 
 
 ## Weekly Schedule Page
 - This page shows users when events are happening, where and also what time.
 - This page will be updated as events change.
     /../main/readme-images/amiresponsive-old.jpg
+    ![Responsive Image]()
 
 ## Sign up Page
 - Allows users to join to a newsletters
@@ -60,21 +65,20 @@ As a visiting user , I would like to view the past event gallery.
 - Users can choose to only receive email about weekly schedules, events around birmingham or both.
 - Form requires Name and Email adress.
     /../main/readme-images/amiresponsive-old.jpg
-
-
-
-
-
+    ![Responsive Image]()
 
 
 ## Future Features
 
 - Create own meet up events
 - Toggle Dark Mode
+
+
 ## Typography
 
 - Font size used was Roboto-Slab
 - Colors used 
+
 ## Technology
 
 ### Technologies used were as follows:
@@ -102,16 +106,20 @@ tested that all text is readable
   to a sign up form. Form requires First name, Last name, Email address and types of emails to be received.
   - Incorrect email address type attempted with expected result to be a pop up informing what was entered inccorectly.
   - Corrct email entered with expected result to be information accepted.
+  ![Responsive Image]()
 
   ### Gallery page
   - Click gallery symbol with the expected result to be shown a gallery page full of images.
+  ![Responsive Image]()
 
   ### Weekly Schedule
   - click on scehdule symbol with the expectation of being redirected to schedule page, with the content showing the weekly schedule.
   - click on location with the expectation of being redirected to google maps in a new tab.
+  ![Responsive Image]()
 
   ### Title
   - click on the title with the expected result to be redirected to the home page.
+  ![Responsive Image]()
 
 ### Screen size
 - all test above reaped on sizes ranging from tablets and mobile
@@ -120,13 +128,15 @@ tested that all text is readable
 ### CSS Validation
  - Tested using the official W3C validator
  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+ ![Responsive Image]()
 
 ### HTML Validation
  - Tested using the official (Jigsaw) validator
  https://validator.w3.org/nu/?doc=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F
+ ![Responsive Image]()
 
 ### lighthuose validator in inspect
-
+![Responsive Image]()
 
 
  ### bugs along the way
