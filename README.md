@@ -32,24 +32,21 @@ As a visiting user , I would like to view the past event gallery.
 ### Footer
 - This Section has link to social media opening in different tabs.
 - Users can follow and subscribe to social networks.
-![Responsive Image]()
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/footer.jpg)
 
 ## Main Page
 ![Responsive Image]()
 
 ### Landing Section
 - Circle container has a picture of a travel experience and is eye catching.
-	../main/readme-images/amiresponsive-old.jpg
     ![Responsive Image]()
 
 ### Why Join us Section
 	- This section tells the user the benefits with the goal of encouraging them to join.
-    /../main/readme-images/amiresponsive-old.jpg
     ![Responsive Image]()
 
 ## Gallery page
 - Masonary Gallery shows past events to intice users to join.
-    /../main/readme-images/amiresponsive-old.jpg
     ![Responsive Image]()
 
 
@@ -96,6 +93,7 @@ HOVER:CSS
 GOOGLE FONTS
 
 FONT awesome
+
 ## Testing
 
 Site tested on different browser: Microsoft Edge, Brave Browser and Chrome.
@@ -106,20 +104,20 @@ tested that all text is readable
   to a sign up form. Form requires First name, Last name, Email address and types of emails to be received.
   - Incorrect email address type attempted with expected result to be a pop up informing what was entered inccorectly.
   - Corrct email entered with expected result to be information accepted.
-  ![Responsive Image]()
+  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
 
   ### Gallery page
   - Click gallery symbol with the expected result to be shown a gallery page full of images.
-  ![Responsive Image]()
+  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg)
 
   ### Weekly Schedule
   - click on scehdule symbol with the expectation of being redirected to schedule page, with the content showing the weekly schedule.
   - click on location with the expectation of being redirected to google maps in a new tab.
-  ![Responsive Image]()
+  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
 
   ### Title
   - click on the title with the expected result to be redirected to the home page.
-  ![Responsive Image]()
+  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/title-Bar.jpg)
 
 ### Screen size
 - all test above reaped on sizes ranging from tablets and mobile
@@ -128,12 +126,12 @@ tested that all text is readable
 ### CSS Validation
  - Tested using the official W3C validator
  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
- ![Responsive Image]()
+ ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/css-validator.jpg)
 
 ### HTML Validation
  - Tested using the official (Jigsaw) validator
  https://validator.w3.org/nu/?doc=https%3A%2F%2Fpassportpowell.github.io%2FPassport-Powell%2F
- ![Responsive Image]()
+ ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/html-validator.jpg)
 
 ### lighthuose validator in inspect
 ![Responsive Image]()
