@@ -20,7 +20,8 @@ body {
     font-weight: 300;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     letter-spacing: 3px;
@@ -90,7 +91,8 @@ h1, h2 {
     border-bottom: 3px double #070606;
 }
 
-.over-text, h2 {
+.over-text,
+h2 {
     color: #0000ff;
 }
 
@@ -186,13 +188,14 @@ h1, h2 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    /* overflow: hidden; */
+    height: auto;
+    overflow: hidden;
 }
 
 .schedule div {
     color: #ffffff;
     width: 25%;
-    height: 300px;
+    height: 100%;
     float: left;
     padding-top: 30px;
     padding-right: 0;
@@ -202,11 +205,19 @@ h1, h2 {
     border: 3px double #ffffff;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
 
 }
 
 .schedule a {
     color: #06b4c0;
+}
+
+.schedule h2 {
+    color: #fafafa;
 }
 
 #schedule {
@@ -232,6 +243,7 @@ h1, h2 {
 footer {
     padding-top: 5%;
     height: 150px;
+    margin: 0 auto;
 }
 
 .social-sites {
@@ -392,8 +404,22 @@ input[type=email]:focus {
 
 
 
-/* Mobile Viewing for screen lower than 951 pixels*/
+/* Mobile Viewing for screen lower than 835 pixels*/
 /* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
+
+
+@media screen and (max-width: 950px) {
+    .schedule div {
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .gallery {
+        column-count: 3;
+    }
+}
+
 
 @media screen and (max-width: 835px) {
 
@@ -433,7 +459,7 @@ input[type=email]:focus {
         height: 1px;
     }
 
-    .nav-menu li {
+    .hero-image .nav-menu li {
         text-align: center;
         display: flex;
         justify-content: center;
@@ -442,6 +468,11 @@ input[type=email]:focus {
     .over-text {
         clear: both;
         padding-top: 3px;
+        margin: 0 auto;
+    }
+
+    .why-join-us {
+        width: 90%;
     }
 
 }
@@ -497,6 +528,10 @@ input[type=email]:focus {
         max-width: 100%;
         float: none;
         margin: auto;
+    }
+
+    .gallery {
+        column-count: 2;
     }
 
 }
