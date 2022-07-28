@@ -36,7 +36,7 @@ As a visiting user , I would like to view the past event gallery.
 
 ### Landing Section
 - Circle container has a picture of a travel experience and is eye catching.
-	/../main/readme-images/amiresponsive-old.jpg
+	../main/readme-images/amiresponsive-old.jpg
 
 ### Why Join us Section
 	- This section tells the user the benefits with the goal of encouraging them to join.
