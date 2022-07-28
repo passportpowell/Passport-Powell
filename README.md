@@ -139,21 +139,21 @@ tested that all text is readable
 ### lighthouse validator
 - Main Page
 
-![Responsive Image]()
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-home.jpg)
 
 
 - Gallery
 
-![Responsive Image]()
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-gallery.jpg)
 
 
 - Schedule
 
-![Responsive Image]()
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-schedule.jpg)
 
 - Sign Up Page
 
-![Responsive Image]()
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/lighthouse-signup.jpg)
 
 
  ## Bugs along the way
