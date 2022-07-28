@@ -48,12 +48,14 @@ As a visiting user , I would like to view the past event gallery.
 
 ## Gallery page
 - Masonary Gallery shows past events to intice users to join.
+
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery-amiresponsive.jpg)
 
 
 ## Weekly Schedule Page
 - This page shows users when events are happening, where and also what time.
 - This page will be updated as events change.
+
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule-amiresponsive.jpg)
 
 ## Sign up Page
@@ -61,6 +63,7 @@ As a visiting user , I would like to view the past event gallery.
 - Nesletters gives information about events in and around Birmingham.
 - Users can choose to only receive email about weekly schedules, events around birmingham or both.
 - Form requires Name and Email adress.
+
 ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/signup-amiresponsive.jpg)
 
 
