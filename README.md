@@ -9,23 +9,23 @@ Travel community site for meeting fellow travelers. Site is targeted mostly towa
 ## User Stories
 
 - Main page
-As a visiting user, I would like to see what the Website is about.
+As a visiting user: I would like to see what the Website is about.
 
 - Sign up Page
-As a visiting user , I would like to signup for the newsletter.
+As a visiting user: I would like to signup for the newsletter.
 
-- Weekly Schedule PAge
-As a visiting user , I would like to view the weekly schedule for meet ups. 
+- Weekly Schedule Page
+As a visiting use: I would like to view the weekly schedule for meet ups. 
 
 - Past events gallery page
-As a visiting user , I would like to view the past event gallery. 
+As a visiting user: I would like to view the past event gallery. 
 
 ## Features
 
 ### Navigation Bar
 - On all pages and functional, Removing the need for users to click/press back button.
 
-- NAv menu links to 
+- Nav menu links to 
     - Home 
     
     ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
@@ -90,19 +90,20 @@ As a visiting user , I would like to view the past event gallery.
 
 ### Technologies used were as follows:
 
-HTML5 
 
-CSS
+HTML5 - Used for creating layout.
 
-github
+CSS -  Used for styling HTML.
 
-gitpod
+github - Used for hosting repository for easy sharing.
 
-HOVER:CSS
+gitpod -  Used for writing the HTML and CSS and README.
 
-GOOGLE FONTS
+HOVER:CSS - Used for hover styling.
 
-FONT awesome
+GOOGLE FONTS - for use of roboto-slab
+
+FONT awesome - used for icons
 
 ## Testing
 
@@ -110,10 +111,14 @@ Site tested on different browser: Microsoft Edge, Brave Browser and Chrome.
 tested that all text is readable
 
  ### Sign up page
-  - Click sign up symbol on nav with the expected result to be redirected 
-  to a sign up form. Form requires First name, Last name, Email address and types of emails to be received.
-  - Incorrect email address type attempted with expected result to be a pop up informing what was entered inccorectly.
-  - Corrct email entered with expected result to be information accepted.
+  - Click sign up symbol on the nav bar with the expected result to be redirected 
+  to a sign up form. 
+  - Click on First name box: User should notice error until field is entered correctly. Last name, Email address and types of emails to be received.
+  - Click on Last name box: User should notice error until field is entered correctly.
+  - Click on Email box: User should notice error until characters are entered into the field.
+    - Enter invalid email address will expected result in an error.
+    - Enter valid email entered with expected result to be information accepted.
+  - user wil be redirected to another page.
 
   ### Gallery page
   - Click gallery symbol with the expected result to be shown a gallery page full of images.
@@ -175,8 +180,9 @@ tested that all text is readable
 
 ## Deployment
 
-Deployment was achieved via GitHub pages using the following steps
+Deployment was achieved via GitHub and gitpod pages using the following steps
 
+## Github
  - In the GitHub repository go to the Settings tab,
 
  - using the source section drop-down menu, select the Master/ or Main Branch,
@@ -184,6 +190,10 @@ Deployment was achieved via GitHub pages using the following steps
  - Once completed a link will be provided that may take a few minutes to go live,
 
  - live link https://passportpowell.github.io/Passport-Powell/ .
+
+## gitpod
+ in the terminal type python3 -m http.server
+ a pop up appears which upon clicking "open in browserW will show a new tab with the site created.
 
 ## Credits
 
