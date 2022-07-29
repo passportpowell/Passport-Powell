@@ -26,10 +26,18 @@ As a visiting user , I would like to view the past event gallery.
 - On all pages and functional, Removing the need for users to click/press back button.
 
 - NAv menu links to 
-    - Home ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
-    - Past Events Gallery ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg) 
-    - Weekly Schedule ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
-    - Sign up ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
+    - Home 
+    
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/home.jpg)
+    - Past Events Gallery 
+    
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg) 
+    - Weekly Schedule 
+    
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
+    - Sign up 
+    
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
 - Hovering over icons for text explanation of what it does if needed.
 
 ### Footer
@@ -106,20 +114,16 @@ tested that all text is readable
   to a sign up form. Form requires First name, Last name, Email address and types of emails to be received.
   - Incorrect email address type attempted with expected result to be a pop up informing what was entered inccorectly.
   - Corrct email entered with expected result to be information accepted.
-  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
 
   ### Gallery page
   - Click gallery symbol with the expected result to be shown a gallery page full of images.
-  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg)
 
   ### Weekly Schedule
   - click on scehdule symbol with the expectation of being redirected to schedule page, with the content showing the weekly schedule.
   - click on location with the expectation of being redirected to google maps in a new tab.
-  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
 
   ### Title
   - click on the title with the expected result to be redirected to the home page.
-  ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/title-Bar.jpg)
 
 ### Screen size
 - all test above reaped on sizes ranging from tablets and mobile

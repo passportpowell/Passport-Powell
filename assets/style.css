@@ -6,11 +6,15 @@ use jigsaw css validator */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
+body {
+    background-color: #e5e5e5;
+}
 
 .hr1 {
     height: 6px;
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
+    background-color: #e5e5e5;
 }
 
 
@@ -119,28 +123,30 @@ h2 {
 /* ETHOS SECTION */
 
 .why-join-us {
-    height: 400px;
-    text-align: center;
-    color: #000000;
-    clear: both;
-    margin: 0 auto;
+    padding: 50px 50px 70px 50px;
+    margin-left: 10px;
+    margin-right: 160px;
+}
+
+.why-join-us>h2 {
+    font-size: 200%;
+}
+
+.above-why {
+    padding: 50px 50px 70px 50px;
+    margin-left: 10px;
+    margin-right: 160px;
 }
 
 .why-join-us li {
     list-style-type: none;
-    text-align: center;
-}
-
-.why-join-us>h1 {
-    font-size: 300%;
-    text-align: center;
-}
-
-.above-why {
-    color: #000000;
-    width: 92%;
+    /* text-align: center; */
+    margin: auto;
+    font-size: 125%;
+    padding: 50px 50px 70px 50px;
+    margin-left: 10px;
+    margin-right: 160px;
     line-height: 30px;
-    text-align: center;
 }
 
 .link {
@@ -234,16 +240,16 @@ h2 {
     clear: right;
     width: 50%;
     text-align: center;
-    /* background-color: #00ffff; */
     margin: 0 auto;
     position: static;
 }
 
 /* Footer styling section */
 footer {
-    padding-top: 5%;
-    height: 150px;
-    margin: 0 auto;
+
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 175%;
 }
 
 .social-sites {
@@ -293,12 +299,14 @@ footer {
 }
 
 #signup-form {
-    margin: 100px 100px 300px 300px;
+    /* margin: 100px 100px 300px 300px; */
+    margin: 0 auto;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     max-width: 50%;
     position: relative;
     padding: 30px;
+    height: auto;
 
     background-size: cover;
     border: 3px double #fafafa;
@@ -404,7 +412,7 @@ input[type=email]:focus {
 
 
 
-/* Mobile Viewing for screen lower than 835 pixels*/
+/* Mobile Viewing for screen lower than 950 pixels*/
 /* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
 
 
@@ -418,6 +426,66 @@ input[type=email]:focus {
     .gallery {
         column-count: 3;
     }
+
+    #join-form {
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .nav-menu2 li {
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu {
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-join-us {
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 160px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .why-join-us>h2 {
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .above-why {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .why-join-us li {
+        list-style-type: none;
+        text-align: center;
+        margin: auto;
+        font-size: 125%;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: 30px;
+    }
+
+    .newsletter {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
 }
 
 
