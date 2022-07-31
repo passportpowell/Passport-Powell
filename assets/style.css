@@ -112,10 +112,13 @@ h2 {
 }
 
 #hero-image {
-    background-image: url(../assets/images/hero-image.webp);
-    position: relative;
+    background: url(../assets/images/hero-image.webp) no-repeat center center;
+    /* position: cover; */
     width: 100%;
     height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -211,7 +214,7 @@ h2 {
     border: 3px double #ffffff;
     box-sizing: border-box;
     background-color: #00000099;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -220,11 +223,11 @@ h2 {
 }
 
 .schedule a {
-    color: #06b4c0;
+    color: #ffffff;
 }
 
 .schedule h2 {
-    color: #fafafa;
+    color: #ffffff;
 }
 
 #schedule {
@@ -315,6 +318,23 @@ footer {
 
     background-size: cover;
     border: 3px double #fafafa;
+}
+
+#signup-form2 {
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 50%;
+    position: relative;
+    padding: 30px;
+    height: auto;
+text-align: center;
+    background-size: cover;
+    border: 3px double #fafafa; 
+}
+
+#signup-form2 a {
+    color: #ffffff;
 }
 
 form h2 {

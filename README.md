@@ -118,7 +118,7 @@ tested that all text is readable
   - Click on Email box: User should notice error until characters are entered into the field.
     - Enter invalid email address will expected result in an error.
     - Enter valid email entered with expected result to be information accepted.
-  - user wil be redirected to another page.
+  - user wil be redirected to Congratulations page and can use NAV menu or "let's go home" to return to the homepage.
 
   ### Gallery page
   - Click gallery symbol with the expected result to be shown a gallery page full of images.
