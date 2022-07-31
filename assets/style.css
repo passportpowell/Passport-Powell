@@ -1,9 +1,3 @@
-/* for width margin padding try to use % rather than px
-for code with more than 4 lines then add commet about what it does
-dont just comment like "club ethos" instead use the class id
-credit pictures within readme and not css
-use jigsaw css validator */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
 body {
@@ -113,14 +107,12 @@ h2 {
 
 #hero-image {
     background: url(../assets/images/hero-image.webp) no-repeat center center;
-    /* position: cover; */
     width: 100%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 
 
 /* ETHOS SECTION */
@@ -142,14 +134,12 @@ h2 {
 }
 
 .why-join-us li {
-    list-style-type: none;
-    /* text-align: center; */
     margin: auto;
     font-size: 125%;
     padding: 50px 50px 70px 50px;
     margin-left: 10px;
     margin-right: 160px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .link {
@@ -167,10 +157,6 @@ h2 {
     margin: 0 auto;
     clear: none;
 }
-
-
-
-/* Circle container and image - I WANT TO CREATE 3 HORIZONTAL */
 
 .circle-image {
     width: 300px;
@@ -214,12 +200,10 @@ h2 {
     border: 3px double #ffffff;
     box-sizing: border-box;
     background-color: #00000099;
-    /* opacity: 0.6; */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
 .schedule a {
@@ -248,16 +232,15 @@ h2 {
     position: static;
 }
 
-/* Footer styling section */
-footer {
 
+/* Footer page */
+
+footer {
     background-color: #ffffff;
     width: 100%;
     font-size: 150%;
     position: relative;
     padding-bottom: 10px;
-
-
 }
 
 .social-sites {
@@ -293,7 +276,8 @@ footer {
     width: 100%;
 }
 
-/* Sign up section */
+
+/* Sign up page */
 
 #join-form {
     background: url("");
@@ -307,7 +291,6 @@ footer {
 }
 
 #signup-form {
-    /* margin: 100px 100px 300px 300px; */
     margin: 0 auto;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.8);
@@ -315,7 +298,6 @@ footer {
     position: relative;
     padding: 30px;
     height: auto;
-
     background-size: cover;
     border: 3px double #fafafa;
 }
@@ -328,9 +310,9 @@ footer {
     position: relative;
     padding: 30px;
     height: auto;
-text-align: center;
+    text-align: center;
     background-size: cover;
-    border: 3px double #fafafa; 
+    border: 3px double #fafafa;
 }
 
 #signup-form2 a {
@@ -349,8 +331,6 @@ form h2 {
 #color-white {
     color: #fffefe;
 }
-
-
 
 .signup-form h2 {
     color: #fafafa;
@@ -419,10 +399,6 @@ form h2 {
     color: #ffffff;
 }
 
-
-/* TEXT BOX WIDTH CHANGE WHEN CLICKED CSS BELOW FOUND FROM
-https://www.w3schools.com/cssref/sel_attribute_value.asp */
-
 input[type=text],
 input[type=email] {
     width: 100%;
@@ -436,10 +412,7 @@ input[type=email]:focus {
 }
 
 
-
 /* Mobile Viewing for screen lower than 950 pixels*/
-/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
-
 
 @media screen and (max-width: 950px) {
     .schedule div {
@@ -457,20 +430,6 @@ input[type=email]:focus {
         clear: both;
         padding: 0;
     }
-
-    /* .nav-menu2 li {
-        height: 1px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .nav-menu {
-        height: 1px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
 
     .why-join-us {
         padding: 0;
@@ -508,13 +467,6 @@ input[type=email]:focus {
         margin: 0 auto;
         padding: 0;
     }
-
-    footer {
-
-    }
-
-
-
 }
 
 
@@ -543,7 +495,6 @@ input[type=email]:focus {
         width: 100%;
         padding: 0px;
     }
-
 }
 
 @media screen and (max-width: 690px) {
@@ -575,11 +526,9 @@ input[type=email]:focus {
     .newsletter {
         width: 100%;
     }
-
 }
 
 /* Tablet viewing for screens lower than 844 pixel */
-/* THIS SECTION IS NOT ALGNED STRAIGHT FOR SOME REASON*/
 
 @media screen and (max-width: 464px) {
 
@@ -614,12 +563,10 @@ input[type=email]:focus {
         text-align: center;
     }
 
-
     .circle-image {
         clear: both;
         padding: 0;
     }
-
 
     .hero-image {
         width: 100%;
@@ -638,5 +585,4 @@ input[type=email]:focus {
     footer {
         font-size: 100%;
     }
-
 }
