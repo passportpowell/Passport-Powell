@@ -4,7 +4,7 @@ Portfolio 1 Assessment
 
 Travel community site for meeting fellow travelers. Site is targeted mostly towards travelers coming into the UK while still being open to residents.
 
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Amiresponsive_old.jpg)
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/amiresponsive_old.jpg)
 
 ## User Stories
 
@@ -34,7 +34,7 @@ As a visiting user: I would like to view the past event gallery.
     ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/gallery.jpg) 
     - Weekly Schedule 
     
-    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule.jpg)
+    ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/schedule.jpg)
     - Sign up 
     
     ![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/sign-up.jpg)
@@ -64,7 +64,7 @@ As a visiting user: I would like to view the past event gallery.
 - This page shows users when events are happening, where and also what time.
 - This page will be updated as events change.
 
-![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/Schedule-amiresponsive.jpg)
+![Responsive Image](https://github.com/passportpowell/Passport-Powell/blob/main/readme-images/schedule-amiresponsive.jpg)
 
 ## Sign up Page
 - Allows users to join to a newsletters
