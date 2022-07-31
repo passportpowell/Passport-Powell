@@ -175,7 +175,7 @@ tested that all text is readable
 
  - When resizing the screen to mobile the Nav menu would dissapear. Solution was the class wasn't identified correctly in @media screen
 
- - Sign up form just reloads page, tried to work out how to get it to open a specific page but was unsuccessful.
+ - Sign up form just reloads page. error was caused by the using #contragtulations.html. solution was to remove the #.
 
 
 ## Deployment
