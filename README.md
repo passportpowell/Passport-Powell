@@ -216,4 +216,6 @@ https://www.w3schools.com/cssref/sel_attribute_value.asp .
 
 - Code for HR styling (double line) sourced from https://codepen.io/zackw/pen/NqWgPq .
 
+- Code for course has been learned from Full stack development course via Code insitute.
+
 - Help was asked using the slack group as radios section allowed all 3 button to be active. solution was found thanks to jeffrey bull.
