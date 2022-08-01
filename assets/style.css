@@ -18,8 +18,7 @@ body {
     font-weight: 300;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     letter-spacing: 3px;
@@ -120,7 +119,7 @@ h2 {
 .why-join-us {
     padding: 50px 50px 70px 50px;
     margin-left: 10px;
-    margin-right: 160px;
+    width: 100%;
 }
 
 .why-join-us>h2 {
@@ -139,7 +138,7 @@ h2 {
     padding: 50px 50px 70px 50px;
     margin-left: 10px;
     margin-right: 160px;
-    line-height: 20px;
+    line-height: 2px;
 }
 
 .link {
@@ -221,8 +220,7 @@ footer {
     background-color: #ffffff;
     width: 100%;
     font-size: 150%;
-    position: relative;
-    padding-bottom: 10px;
+    height: 1%;
 }
 
 .social-sites {
